@@ -1,0 +1,12 @@
+.chunk {
+    outline: 1px solid red;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 755px;
+    height: 654px;
+}
+
+.chunk.even-chunk .chunk-wrapper {
+    transform: translateY(-42px);
+}
